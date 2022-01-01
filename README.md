@@ -46,5 +46,7 @@ func main() {
 	}
 
 	println("myLuckyNumber is now", myLuckyNumber) // 38
+	
+	_ = handle.CloseProcess()
 }
 ```
